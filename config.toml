@@ -1,0 +1,39 @@
+# Site settings
+baseurl = ""
+languageCode = "en-US"
+title = "Fundamental Techniques in Handling People"
+theme = "hugo-faq-theme"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Menu
+SectionPagesMenu = "main"
+
+
+	[[menu.main]]
+		name = "Fundamental Techniques"
+		weight = 10
+		url = "#fundamental-techniques-in-handling-people"
+	[[menu.main]]
+		name = "Make People Like You"
+		weight = 20
+		url = "#make-people-like-you"
+	[[menu.main]]
+		name = "Win People to Your Way of Thinking"
+		weight = 30
+		url = "#win-people-to-your-way-of-thinking"
+	[[menu.main]]
+		name = "Be a Leader"
+		weight = 40
+		url = "#be-a-leader"
+
+[params]
+	
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point 
+	# to your site's css in the assets/ directory. 
+
+	custom_css = ["css/custom.css"]
